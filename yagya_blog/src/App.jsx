@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./pages/Home";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import NewsLetter from "./pages/NewsLetter";
 import Badges from "./pages/Badges";
 import PageNotFound from "./pages/PageNotFound";
@@ -16,6 +17,8 @@ const App = () => {
         <Route path="/newsletters" element={<NewsLetter />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
+
+      <Footer />
     </Router>
   );
 };

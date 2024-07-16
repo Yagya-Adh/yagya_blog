@@ -2,7 +2,7 @@ import React from "react";
 import plant from "../assets/plant.png";
 const Home = () => {
   return (
-    <div className="mx-auto w-[70%] p-2">
+    <div className="mx-auto w-[70%] p-2 ">
       <div className="grid grid-cols-2 grid-flow-row gap-6 ">
         {/* h-3/4 overflow-hidden */}
         <div className="border rounded-md  border-gray-400 pb-3">
